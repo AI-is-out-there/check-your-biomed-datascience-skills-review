@@ -15,6 +15,19 @@
 
 **`\task`** - сами задания, которые содержат описание того, что надо сделать
 
+## Практические задания
+
+| Задание      | Тип                           | Данные                                | Метрики                       | Файл решения                |
+| ------------ | ----------------------------- | ------------------------------------- | ----------------------------- | --------------------------- |
+| **Task 1**   | Supervised (таблица)          | CSV: диспансеризация 1000 пациентов   | Accuracy, Recall, F1, ROC-AUC | `task1_solution.ipynb/py`   |
+| **Task 2.1** | Supervised (временные ряды)   | CSV: ECG5000, 5000 сегментов          | Accuracy, macro F1            | `task2_1_solution.ipynb/py` |
+| **Task 2.2** | Unsupervised (временные ряды) | NPZ: PPG 72 окна                      | ARI, NMI, Silhouette          | `task2_2_solution.ipynb/py` |
+| **Task 3.1** | Supervised (изображения)      | MedMNIST PathMNIST                    | Accuracy, macro F1            | `task3_1_solution.ipynb/py` |
+| **Task 3.2** | Unsupervised (изображения)    | MedMNIST PathMNIST                    | ARI, NMI, Silhouette          | `task3_2_solution.ipynb/py` |
+| **Task 4.1** | Supervised (генетика)         | TXT: ~1000 индивидов, 10101 признаков | Accuracy, macro F1            | `task4_1_solution.ipynb/py` |
+| **Task 4.2** | Unsupervised (генетика)       | FASTA: 24 белковые последовательности | ARI, NMI                      | `task4_2_solution.ipynb/py` |
+
+
 ## Правила работы: 
 1) получи задание (см.  `\task`)
 2) сделай fork 
