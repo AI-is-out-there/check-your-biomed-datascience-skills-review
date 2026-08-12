@@ -1,8 +1,0 @@
-task_id: task1
-type: classification
-metric: f1
-average: weighted
-id_column: patient_id
-target_column: prediction
-threshold: 0.75
-timeout_seconds: 300

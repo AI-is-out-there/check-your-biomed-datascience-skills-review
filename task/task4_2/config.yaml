@@ -1,7 +1,0 @@
-task_id: task4_2
-type: clustering
-metric: ari
-id_column: sequence_id
-target_column: cluster
-threshold: 0.35
-timeout_seconds: 300

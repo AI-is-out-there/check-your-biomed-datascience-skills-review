@@ -1,8 +1,0 @@
-task_id: task2_1
-type: classification
-metric: f1
-average: macro
-id_column: heartbeat_id
-target_column: prediction
-threshold: 0.40
-timeout_seconds: 300

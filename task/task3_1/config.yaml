@@ -1,8 +1,0 @@
-task_id: task3_1
-type: classification
-metric: f1
-average: macro
-id_column: image_id
-target_column: prediction
-threshold: 0.35
-timeout_seconds: 300
