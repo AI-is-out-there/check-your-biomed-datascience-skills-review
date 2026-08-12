@@ -1,7 +1,0 @@
-task_id: task2_2
-type: clustering
-metric: ari
-id_column: window_id
-target_column: prediction
-threshold: 0.05
-timeout_seconds: 300

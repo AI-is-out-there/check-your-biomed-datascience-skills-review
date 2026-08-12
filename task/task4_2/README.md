@@ -10,5 +10,3 @@ Cluster the protein sequences without using the biological group labels during f
 - Required columns: `sequence_id` and `cluster`.
 - `sequence_id` values must match the held-out FASTA headers, and `cluster` may contain any consistent cluster labels.
 - Do not write duplicate IDs or missing values.
-
-The grader uses Adjusted Rand Index (ARI) for pass/fail and also reports NMI for visibility.

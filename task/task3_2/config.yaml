@@ -1,7 +1,0 @@
-task_id: task3_2
-type: clustering
-metric: ari
-id_column: image_id
-target_column: prediction
-threshold: 0.12
-timeout_seconds: 300
