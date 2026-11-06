@@ -1,9 +1,6 @@
 """
-Задание 2.1: классификация сердечных сокращений по ЭКГ (5 классов), 1D CNN на PyTorch.
+Задание 2.1: классификация сердечных сокращений по ЭКГ
 
-Запуск из корня склонированного репозитория:
-    python your-sollution/task2_1_solution.py
-Результат: outputs/task2_1_predictions.csv (heartbeat_id, prediction) + графики в outputs/task2_1_figures/
 """
 import os
 from pathlib import Path
